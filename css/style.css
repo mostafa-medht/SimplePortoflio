@@ -5,6 +5,7 @@ body {
 
 .container {
   display: grid;
+  grid-template-columns: 1fr;
 }
 
 .nav-wrapper {
@@ -41,4 +42,56 @@ body {
 
 .nav-link-wrapper a:hover {
   color: black;
+}
+
+/* Portfolio Styles */
+.portfoilo-items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.portfoilo-item-wrapper {
+  position: relative;
+}
+
+.portfoilo-img-bg {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: lightseagreen;
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
 }
