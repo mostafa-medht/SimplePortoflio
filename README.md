@@ -19,7 +19,7 @@ _Is a project built using **HTML5&CSS3&JS**, it have 2 pages:_
 - _**main page**_ displays many sections.
     * Simple Navbar and logo.
     * Simple Galary.
-    *Footer
+    * Footer.
 
 ## Run Online Project
 
